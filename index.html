@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Explore premium apartments, villas and houses for sale worldwide. Discover exceptional properties with EstateHub."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="EstateHub | Luxury Properties Worldwide"
+    />
+    <meta
+      property="og:description"
+      content="Discover exceptional apartments, villas and houses around the world with EstateHub."
+    />
+    <meta property="og:site_name" content="EstateHub" />
+    <meta
+      property="og:image"
+      content="https://example.com/images/estatehub-preview.jpg"
+    />
+    <meta property="og:url" content="https://example.com/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="EstateHub | Luxury Properties Worldwide"
+    />
+    <meta
+      name="twitter:description"
+      content="Discover exceptional properties around the world with EstateHub."
+    />
+    <meta
+      name="twitter:image"
+      content="https://example.com/images/estatehub-preview.jpg"
+    />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="EstateHub" />
+    <meta name="theme-color" content="#65734c" />
+
+    <title>EstateHub | Luxury Properties &amp; Homes for Sale Worldwide</title>
+
+    <link rel="icon" href="images/branding/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="navbar">
+        <a href="#hero" class="logo">
+          <span class="logo-icon">E</span>
+          <span>Estate<span class="logo-light">Hub</span></span>
+        </a>
+
+        <nav class="nav-links">
+          <a href="#hero" class="active">Home</a>
+          <a href="#properties">Properties</a>
+          <a href="#about">About Us</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button type="button" class="login-btn">Log In</button>
+
+          <button type="button" class="list-property-btn">
+            List Your Property <span>↗</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <span class="hero-label">
+              <span class="label-line"></span>
+              DISCOVER YOUR NEXT CHAPTER
+            </span>
+
+            <h1>
+              Find a place<br />
+              to call <em>home.</em>
+            </h1>
+
+            <p>
+              Discover exceptional properties and inspiring spaces designed
+              around the way you want to live.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#properties" class="hero-primary-btn">
+                Explore Properties <span>↗</span>
+              </a>
+
+              <a href="#about" class="hero-secondary-btn"> Learn More </a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>2,400+</strong>
+                <span>Happy Clients</span>
+              </div>
+
+              <div>
+                <strong>850+</strong>
+                <span>Properties</span>
+              </div>
+
+              <div>
+                <strong>24</strong>
+                <span>Featured Cities</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-container">
+            <img
+              src="images/hero.jpg.jpeg"
+              alt="Modern luxury living room"
+              class="hero-image"
+            />
+
+            <div class="hero-image-badge">
+              <span>⌂</span>
+
+              <div>
+                <strong>Find your space</strong>
+                <small>Discover a better way home</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEARCH SECTION -->
+      <section id="search">
+        <div class="search-container">
+          <div class="search-heading">
+            <span>FIND YOUR PLACE</span>
+            <h2>Start your search</h2>
+          </div>
+
+          <div class="search-form">
+            <div class="search-field">
+              <label for="location">Location</label>
+
+              <input
+                type="text"
+                id="location"
+                placeholder="City, neighborhood or ZIP"
+              />
+            </div>
+
+            <div class="search-field">
+              <label for="property-type">Property Type</label>
+
+              <select id="property-type">
+                <option value="">All Properties</option>
+                <option value="Apartment">Apartment</option>
+                <option value="House">House</option>
+                <option value="Villa">Villa</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label for="price-range">Maximum Price</label>
+
+              <select id="price-range">
+                <option value="">Any Price</option>
+                <option value="200000">$200,000</option>
+                <option value="400000">$400,000</option>
+                <option value="600000">$600,000</option>
+                <option value="1000000">$1,000,000</option>
+              </select>
+            </div>
+
+            <button type="button" class="search-button">
+              Search <span>↗</span>
+            </button>
+
+            <button type="button" class="reset-search-btn">
+              Reset Filters
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROPERTIES SECTION -->
+      <section id="properties">
+        <div class="properties-container">
+          <div class="properties-header">
+            <div>
+              <span class="section-label">CURATED COLLECTION</span>
+
+              <h2>
+                Explore exceptional<br />
+                properties.
+              </h2>
+
+              <p>Discover spaces that inspire the way you live.</p>
+            </div>
+
+            <div class="property-sort">
+              <label for="sort-price">Sort by:</label>
+
+              <select id="sort-price">
+                <option value="default">Recommended</option>
+                <option value="low-high">Price: Low to High</option>
+                <option value="high-low">Price: High to Low</option>
+              </select>
+            </div>
+
+            <div class="property-header-actions">
+              <button type="button" class="featured-filter-btn">
+                Featured Properties
+              </button>
+
+              <button type="button" class="favorites-filter-btn">
+                Favorites (<span id="favorites-count">0</span>)
+              </button>
+
+              <a href="#search" class="view-all-btn">
+                View All Properties <span>↗</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="results-count" id="results-count"></p>
+
+          <div class="property-grid" id="property-grid">
+            <!-- Property cards will be loaded here with JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <!-- About section will be added here -->
+      </section>
+
+      <!-- PROPERTY DETAILS MODAL -->
+      <div class="property-modal" id="property-modal">
+        <div class="modal-overlay"></div>
+
+        <div class="modal-content">
+          <button type="button" class="modal-close-btn">&times;</button>
+
+          <div id="modal-property-details">
+            <!-- Property details will be loaded here -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FULLSCREEN GALLERY -->
+    <div class="fullscreen-gallery" id="fullscreen-gallery">
+      <button type="button" class="fullscreen-close">&times;</button>
+
+      <button type="button" class="gallery-prev">&#10094;</button>
+
+      <div class="fullscreen-image-container">
+        <img id="fullscreen-image" src="" alt="Property Gallery" />
+
+        <span id="fullscreen-counter">1 / 4</span>
+      </div>
+
+      <button type="button" class="gallery-next">&#10095;</button>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h3>EstateHub<span>.</span></h3>
+
+          <p>Discover exceptional properties and find a place to call home.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Explore</h4>
+
+          <a href="#hero">Home</a>
+          <a href="#properties">Properties</a>
+          <a href="#footer">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+
+          <p>info@estatehub.com</p>
+          <p>Available Worldwide</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 EstateHub. All rights reserved.</p>
+
+        <span>Designed with attention to detail.</span>
+      </div>
+    </footer>
+  </body>
+</html>
